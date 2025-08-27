@@ -1,29 +1,51 @@
 {
   "expo": {
-    "name": "LuckyFortuneApp",
-    "slug": "LuckyFortuneApp",
+    "name": "inluck",
+    "slug": "inluck",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.inluck",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.yourcompany.inluck"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "scheme": "inluck",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "GOOGLE_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID_HERE",
+      "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE",
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID_HERE"
+      }
+    },
+    "owner": "kiminbae",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fe36d876-390c-4256-a216-5a5d4eea07d7"
     }
   }
 }
