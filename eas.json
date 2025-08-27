@@ -8,8 +8,8 @@
       "developmentClient": true,
       "distribution": "internal",
       "env": {
-        "GOOGLE_CLIENT_ID": "818707393241-rp9ktjh9shr83ep3c0f2cq5nsjctb5vf.apps.googleusercontent.com",
-        "GEMINI_API_KEY": "AIzaSyCgUIsfdVhDdPJV8EMhRiTy2d8MIe3QNC0"
+        "GOOGLE_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID_HERE",
+        "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE"
       }
     },
     "preview": {
@@ -18,8 +18,8 @@
         "buildType": "apk"
       },
       "env": {
-        "GOOGLE_CLIENT_ID": "818707393241-rp9ktjh9shr83ep3c0f2cq5nsjctb5vf.apps.googleusercontent.com",
-        "GEMINI_API_KEY": "AIzaSyCgUIsfdVhDdPJV8EMhRiTy2d8MIe3QNC0"
+        "GOOGLE_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID_HERE",
+        "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE"
       }
     },
     "production": {
@@ -27,8 +27,8 @@
         "buildType": "app-bundle"
       },
       "env": {
-        "GOOGLE_CLIENT_ID": "818707393241-rp9ktjh9shr83ep3c0f2cq5nsjctb5vf.apps.googleusercontent.com",
-        "GEMINI_API_KEY": "AIzaSyCgUIsfdVhDdPJV8EMhRiTy2d8MIe3QNC0"
+        "GOOGLE_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID_HERE",
+        "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE"
       }
     }
   },
