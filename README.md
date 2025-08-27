@@ -6,7 +6,6 @@
   [![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
   [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 </div>
 
 ## 📱 앱 소개
@@ -30,7 +29,6 @@
 - **React Navigation 7** - 네비게이션 및 라우팅
 
 ### UI/UX
-- **Tailwind CSS** - 모던하고 일관된 디자인 시스템
 - **React Native Vector Icons** - 아이콘 라이브러리
 - **React Native Reanimated** - 부드러운 애니메이션
 - **React Native Gesture Handler** - 제스처 인식
