@@ -1,7 +1,7 @@
 # 🍀 inluck - 행운과 미래를 탐험하는 신비로운 앱
 
 <div align="center">
-  <img src="assets/inluck-logo" alt="inluck App Icon" width="120" height="120">
+  <img src="assets/inluck-logo.jpg" alt="inluck App Icon" width="120" height="120">
   
   [![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
   [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
