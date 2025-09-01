@@ -1,15 +1,14 @@
 {
   "cli": {
-    "version": ">= 7.0.0",
-    "appVersionSource": "remote"
+    "version": ">= 7.0.0"
   },
   "build": {
     "development": {
       "developmentClient": true,
       "distribution": "internal",
       "env": {
-        "GOOGLE_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID_HERE",
-        "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE"
+        "GOOGLE_CLIENT_ID": "GOOGLE_CLIENT_ID",
+        "GEMINI_API_KEY": "GEMINI_API_KEY"
       }
     },
     "preview": {
@@ -18,8 +17,8 @@
         "buildType": "apk"
       },
       "env": {
-        "GOOGLE_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID_HERE",
-        "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE"
+        "GOOGLE_CLIENT_ID": "GOOGLE_CLIENT_ID",
+        "GEMINI_API_KEY": "GEMINI_API_KEY"
       }
     },
     "production": {
@@ -27,8 +26,8 @@
         "buildType": "app-bundle"
       },
       "env": {
-        "GOOGLE_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID_HERE",
-        "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE"
+        "GOOGLE_CLIENT_ID": "GOOGLE_CLIENT_ID",
+        "GEMINI_API_KEY": "GEMINI_API_KEY"
       }
     }
   },

@@ -2,7 +2,7 @@
   "expo": {
     "name": "inluck",
     "slug": "inluck",
-    "version": "1.0.0",
+    "version": "13.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -22,6 +22,7 @@
       }
     },
     "android": {
+      "versionCode": 14,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -31,13 +32,12 @@
     "scheme": "inluck",
     "platforms": [
       "ios",
-      "android"
+      "android",
+      "web"
     ],
     "extra": {
-      "GOOGLE_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID_HERE",
-      "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE",
       "eas": {
-        "projectId": "YOUR_EAS_PROJECT_ID_HERE"
+        "projectId": "fe36d876-390c-4256-a216-5a5d4eea07d7"
       }
     },
     "owner": "kiminbae",
@@ -46,6 +46,9 @@
     },
     "updates": {
       "url": "https://u.expo.dev/fe36d876-390c-4256-a216-5a5d4eea07d7"
-    }
+    },
+    "plugins": [
+      "expo-web-browser"
+    ]
   }
 }

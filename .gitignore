@@ -122,3 +122,6 @@ web-build/
 
 # Local development
 *.local
+
+# Local Netlify folder
+.netlify
